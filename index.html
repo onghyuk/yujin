@@ -2,10 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
     <title>Yujin</title>
 </head>
 <body>
-    <h1>Hello, Yujin!</h1>
+   <div class="background">
+    <img src="top.gif" class="top">
+    <img src="under.gif" class="under">
+  </div>
   
+  <div class="content">
+      <img src="back.png" class="backimg">
+      
+      <a href="yujin_2.html"><img src="door.png" class="door"></a>
+      <img src="leg.png" class="leg" onclick="content()">
+      <a href="yujin_2.html"><img src="content" style="display: none;" id="content"></a>
+      
+      
+      <img src="dog3.gif" class="dog3">
+      <img src="dog2.gif" class="dog2">
+      <img src="dog.gif" class="dog1">
+      
+      
+  </div>
+  
+  <script>
+  function content() {
+  var x = document.getElementById("content");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}  
+      </script>
 </body>
 </html>
