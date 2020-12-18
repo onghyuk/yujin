@@ -43,22 +43,22 @@ img{
 }
 
 .backimg{
-    width: 60%;
+    width: 800px;
     height: auto;
     
-    margin-left: 20%;
-    margin-top: 2%;
+    margin-left: 240px;
+    margin-top: 20px;
 }
 
 .door{ 
 position: absolute;
-    top:41%;
-    left: 49.2%;
+    top:540px;
+    left: 630px;
     
-    width: 5%;
+    width: 68px;
     
     animation: spin 1s linear infinite;
-}
+    display: inline-block;}
 
 .leg{
     position: absolute;
@@ -398,7 +398,7 @@ position: absolute;
     .content{height: 100vh;}
     .backimg{width: 80%;
     margin-left: 5%;}
-    .door{left: 42%; width: 10%;}
+    .door{left: 43%; top: 42%; width: 8%;}
     .whitebook{
         top:50%;
     }
