@@ -428,5 +428,24 @@ position: absolute;
         
         z-index: 10;
     }
+    
+    .dog1{
+        width: 10%;
+        top:70%;
+        left: 28%;
+    }
+    
+    .dog2{
+       width: 20%;
+        top:65%;
+        left: 26%; 
+    }
+    
+    .dog3{
+      width: 30%;
+        top:55%;
+        left: 22%;   
+    }
+    
 }
 
