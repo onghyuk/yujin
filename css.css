@@ -392,7 +392,7 @@ position: absolute;
             top: 45%;  
         }
 
-@media all (min-width:10px) and (max-width: 768px) { 
+@media screen and (max-width: 768px) { 
     .top{height: 50vh;}
     .under{height: 50vh;}
     .content{height: 100vh;}
