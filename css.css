@@ -392,6 +392,32 @@ position: absolute;
             top: 45%;  
         }
 
+.video{
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    
+    width: 35vw;
+    height: 40vh;
+
+    opacity: 0.2;
+    transition-duration: 1s;
+}
+
+.video:hover{
+    
+
+    opacity: 1;
+}
+
+.toy{
+    position: absolute;
+    left: 3%;
+    top: 65%;
+    
+    width: 30%;
+}
+
 @media screen and (max-width: 768px) { 
     .top{height: 50vh;}
     .under{height: 50vh;}
@@ -447,5 +473,17 @@ position: absolute;
         left: 22%;   
     }
     
+    .leg{
+        left: 
+    }
+    
+    .video{
+        left: 3%;
+        top: 42%;
+        
+        opacity: 1;
+        width: 38vw;
+        height: 20vh;
+    }
 }
 
