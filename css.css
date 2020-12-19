@@ -80,6 +80,8 @@ position: absolute;
     width: 15%;
     
     cursor: pointer;
+    
+    animation: spin 1s linear infinite;
 }
 
 .dog2{
@@ -90,6 +92,8 @@ position: absolute;
     width: 25%;
     
     cursor: pointer;
+    
+    animation: spin 1s linear infinite;
 }
 
 .dog3{
@@ -100,6 +104,8 @@ position: absolute;
     width: 40%;
     
     cursor: pointer;
+    
+    animation: spin 1s linear infinite;
 }
 
 .whitebook{
