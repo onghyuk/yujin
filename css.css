@@ -43,17 +43,19 @@ img{
 }
 
 .backimg{
+    
     width: 800px;
     height: auto;
     
-    margin-left: 240px;
+    display: block;
+    margin: 0px auto;
     margin-top: 20px;
 }
 
 .door{ 
 position: absolute;
     top:540px;
-    left: 630px;
+    left: 49vw;
     
     width: 68px;
     
