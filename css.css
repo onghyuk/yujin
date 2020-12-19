@@ -64,10 +64,10 @@ position: absolute;
 
 .leg{
     position: absolute;
-    top:16%;
+    top:15%;
     left: 57%;
     
-    width: 15%;
+    width: 150px;
     
     animation: spin 1s linear infinite;
 }
@@ -486,7 +486,8 @@ position: absolute;
     }
     
     .leg{
-        left: 
+        width: 80px;
+        top:10%;
     }
     
     .video{
